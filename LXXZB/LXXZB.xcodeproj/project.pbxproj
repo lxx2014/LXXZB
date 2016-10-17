@@ -246,6 +246,7 @@
 				TargetAttributes = {
 					B54FC0C01DB508E200CE1C20 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = H37X2GCB45;
 						ProvisioningStyle = Automatic;
 					};
 					B54FC0D41DB508E200CE1C20 = {
@@ -464,7 +465,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				DEVELOPMENT_TEAM = H37X2GCB45;
 				INFOPLIST_FILE = LXXZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lxx.LXXZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -476,7 +480,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				DEVELOPMENT_TEAM = H37X2GCB45;
 				INFOPLIST_FILE = LXXZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lxx.LXXZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
