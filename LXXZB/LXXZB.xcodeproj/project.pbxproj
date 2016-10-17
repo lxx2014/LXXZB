@@ -13,6 +13,11 @@
 		B54FC0CF1DB508E200CE1C20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54FC0CD1DB508E200CE1C20 /* LaunchScreen.storyboard */; };
 		B54FC0DA1DB508E200CE1C20 /* LXXZBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FC0D91DB508E200CE1C20 /* LXXZBTests.swift */; };
 		B54FC0E51DB508E200CE1C20 /* LXXZBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FC0E41DB508E200CE1C20 /* LXXZBUITests.swift */; };
+		B59708131DB51AB800DBB50F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59708121DB51AB800DBB50F /* MainViewController.swift */; };
+		B59708151DB51B2C00DBB50F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59708141DB51B2C00DBB50F /* Home.storyboard */; };
+		B59708171DB520E900DBB50F /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59708161DB520E900DBB50F /* Live.storyboard */; };
+		B59708191DB521BA00DBB50F /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59708181DB521BA00DBB50F /* Follow.storyboard */; };
+		B597081B1DB5221F00DBB50F /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B597081A1DB5221F00DBB50F /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		B54FC0E01DB508E200CE1C20 /* LXXZBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXXZBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54FC0E41DB508E200CE1C20 /* LXXZBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXXZBUITests.swift; sourceTree = "<group>"; };
 		B54FC0E61DB508E200CE1C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B59708121DB51AB800DBB50F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B59708141DB51B2C00DBB50F /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		B59708161DB520E900DBB50F /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		B59708181DB521BA00DBB50F /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
+		B597081A1DB5221F00DBB50F /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +107,6 @@
 			children = (
 				B597080B1DB5157F00DBB50F /* Classes */,
 				B54FC0C41DB508E200CE1C20 /* AppDelegate.swift */,
-				B54FC0C81DB508E200CE1C20 /* Main.storyboard */,
 				B54FC0CB1DB508E200CE1C20 /* Assets.xcassets */,
 				B54FC0CD1DB508E200CE1C20 /* LaunchScreen.storyboard */,
 				B54FC0D01DB508E200CE1C20 /* Info.plist */,
@@ -139,6 +148,7 @@
 		B597080C1DB5157F00DBB50F /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				B59708181DB521BA00DBB50F /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -146,6 +156,7 @@
 		B597080D1DB5157F00DBB50F /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				B59708141DB51B2C00DBB50F /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -153,6 +164,7 @@
 		B597080E1DB5157F00DBB50F /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				B59708161DB520E900DBB50F /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -160,6 +172,8 @@
 		B597080F1DB5157F00DBB50F /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				B54FC0C81DB508E200CE1C20 /* Main.storyboard */,
+				B59708121DB51AB800DBB50F /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -167,6 +181,7 @@
 		B59708101DB5157F00DBB50F /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				B597081A1DB5221F00DBB50F /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -289,6 +304,10 @@
 				B54FC0CF1DB508E200CE1C20 /* LaunchScreen.storyboard in Resources */,
 				B54FC0CC1DB508E200CE1C20 /* Assets.xcassets in Resources */,
 				B54FC0CA1DB508E200CE1C20 /* Main.storyboard in Resources */,
+				B59708171DB520E900DBB50F /* Live.storyboard in Resources */,
+				B59708151DB51B2C00DBB50F /* Home.storyboard in Resources */,
+				B597081B1DB5221F00DBB50F /* Profile.storyboard in Resources */,
+				B59708191DB521BA00DBB50F /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B54FC0C51DB508E200CE1C20 /* AppDelegate.swift in Sources */,
+				B59708131DB51AB800DBB50F /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +375,7 @@
 				B54FC0C91DB508E200CE1C20 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B54FC0CD1DB508E200CE1C20 /* LaunchScreen.storyboard */ = {
@@ -468,7 +489,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				DEVELOPMENT_TEAM = H37X2GCB45;
 				INFOPLIST_FILE = LXXZB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lxx.LXXZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,7 +504,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				DEVELOPMENT_TEAM = H37X2GCB45;
 				INFOPLIST_FILE = LXXZB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lxx.LXXZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
